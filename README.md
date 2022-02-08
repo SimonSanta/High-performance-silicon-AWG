@@ -15,7 +15,7 @@ Used in this context:
 * RSoft CAD Environment™ for circuit layout design
 * FemSIM™ using Finite Element Method (FEM) for waveguide/slab mode solving
 * FullWAVE™ using Finite-Difference Time-Domain (FDTD) method for light propagation at sensitive material interfaces
-* Python for data processing, optimizations and overall characteristics computation
+* Python for data processing, optimizations and overall characteristics computation.
 
 ## Detailed Description
 
@@ -42,9 +42,9 @@ field mismatch in addition to scattering.
 __Problem solving strategy__: 
 1. Historical review, state-of-the-art study and industry benchmarks
 2. New improvements to the structure
-3. Step-by-step optimization techniques design 
-4. Simulation, data acquisition and optimization
-5. Overall characteristics computation and final results
+3. Step-by-step optimization techniques design
+4. Simulations and optimization results
+5. Overall characteristics computation and final parameters values
 
 __Results:__ The study demonstrate improvements compared to simple transition
 shapes usually used, evaluate the device overall performances and computed the final 
@@ -73,34 +73,40 @@ FDTD simulation allows to take into account complicated
 ![fdtdsimu2](https://user-images.githubusercontent.com/48290004/153053602-56d1e345-2168-469e-aac5-c1497ef1ec04.PNG)
 *Fig3. - FDTD simulation used for fields propagation in the scope of the project*
 
+### Optimization
+Multiple optimization techniques are used along the project. Here the final results are presented for one case.
+
+![optimization1](https://user-images.githubusercontent.com/48290004/153063913-e6048f7c-027c-4372-a462-1ebad3b59978.PNG)
+*Fig4. - Taper first stage optimization final results*
+
 ### Overall characteristics
 Step-by-step simulation methods and results for the overall characterictics computation. The sensitive interface optimized structure
-was used at the boundary between the free-propagation region and the waveguide array.
+was used at the boundary between the free-propagation region and the waveguide array. A unit power is used at the input beam.
 
 ![fulllayoutsimu](https://user-images.githubusercontent.com/48290004/152956658-46663b4c-e582-492f-ab08-50fbb472fec7.PNG)
-*Fig4. - Overall simulation flowchart*
+*Fig5. - Overall simulation flowchart*
 
 Step1
 ![input_beam](https://user-images.githubusercontent.com/48290004/153057264-a468037e-aa3b-4153-a48f-45556166f906.PNG)
-*Fig5. - Input beam*
+*Fig6. - Input beam*
 
 Step3
 ![coupling_to_array](https://user-images.githubusercontent.com/48290004/153057596-8195c8cf-07fb-4af4-bd28-3d1aeb01d984.PNG)
-*Fig6. - Coupling to array*
+*Fig7. - Coupling to array*
 
 Step4
 ![field_in_wgs](https://user-images.githubusercontent.com/48290004/153057604-41660992-be11-4096-8b5c-47456843b0f6.PNG)
-*Fig7. - Field in the waveguide array*
+*Fig8. - Field in the waveguide array*
 
 Step 6,7 and 8
 ![field_fpr2](https://user-images.githubusercontent.com/48290004/153057614-3e4b6c15-36a1-4adf-8397-83524525d0e1.PNG)
-*Fig8. - Field out of array displayed on the top right picture and far in the second free-propagation region using FFT (far-field) on the bottom right picture*
+*Fig9. - Field out of array displayed on the top right picture and far in the second free-propagation region using FFT (far-field) on the bottom right picture*
 
 ### Final values
 Interface optimal design and values         |   AWG final design parameters and characteristics
 :-------------------------:|:-------------------------:
 ![final_optimal_parameters](https://user-images.githubusercontent.com/48290004/152979609-c84fd644-78e4-4158-b415-edabddd1b4a8.PNG)  |  ![final_design_parameters](https://user-images.githubusercontent.com/48290004/152966115-fcc6e55c-6dc0-4800-a982-51ed8bb8be1c.PNG)
 
-*Fig9. - Final values for interface optimization and global parameters*
+*Fig10. - Final values for interface optimization and global parameters*
 
 *Most of the files, PDF and Powerpoint presentation as well as thesis paper on Github.*
